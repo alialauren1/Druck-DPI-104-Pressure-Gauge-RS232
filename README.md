@@ -8,27 +8,6 @@ Python script to poll the GE Druck DPI 104 pressure gauge over RS232 and log rea
 - Python 3
 - pyserial library: `pip3 install pyserial`
 
-## How to run
-
-Connect the USB-to-RS232 adapter and verify the port:
-
-```bash
-ls /dev/tty.usbserial-*
-```
-
-Then run the script:
-
-```bash
-python3 "/Users/aliawolken/Desktop/pressure gauge dpi 104/dpi104_log.py"
-```
-
-Press **Ctrl+C** to stop logging.
-
-## Requirements
-- Python 3
-- pyserial: `pip3 install pyserial`
-- USB-to-RS232 adapter (FTDI-based recommended) and the DPI 104 RS-232 cable
-
 ## Setup on a new computer
 1. Plug in the USB-to-RS232 adapter and connect it to the DPI 104.
 2. Find the adapter's port name:

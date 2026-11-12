@@ -38,7 +38,7 @@ On startup the script sends one dummy read command to wake the gauge (the DPI 10
 CSV file is hard coded:
 
 ```
-dpi104_log.csv
+/Users/aliawolken/Desktop/pressure gauge dpi 104/dpi104_log.csv
 ```
 
 Columns: `Timestamp, Pressure_bar`
